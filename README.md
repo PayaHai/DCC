@@ -42,3 +42,10 @@ DDC 还允许您提前指定变量并应用在任意文本中。支持`固定变
     }
 }
 ```
+
+### 手动编译
+> 请确保您的电脑中拥有 [Deno](https://deno.org.cn/) 运行环境。
+
+1. 执行 `git clone https://github.com/PayaHai/DCC.git` 克隆仓库。
+2. 运行命令 `deno task build` 开始编译任务。
+3. 等待命令运行完毕后，编译产物会存放于 `build` 目录中。

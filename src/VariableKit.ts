@@ -1,6 +1,6 @@
-import ConfigKit from "./ConfigKit.ts"
-import LoggerKit from "./LoggerKit.ts"
-import {VariablesFixValue, VariablesRandomValue} from "../types/ConfigTypes.ts";
+import ConfigKit from "@/src/ConfigKit.ts"
+import LoggerKit from "@/src/LoggerKit.ts"
+import {VariablesFixValue, VariablesRandomValue} from "@/types/ConfigTypes.ts"
 
 const logger = new LoggerKit("VariableKit")
 

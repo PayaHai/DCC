@@ -1,7 +1,7 @@
-import { JSONC } from 'https://deno.land/x/jsonc_parser@v0.0.0/mod.ts'
+import { JSONC } from 'jsonc_parser'
 
-import {Config} from "../types/ConfigTypes.ts"
-import LoggerKit from "./LoggerKit.ts"
+import {Config} from "@/types/ConfigTypes.ts"
+import LoggerKit from "@/src/LoggerKit.ts"
 
 const logger = new LoggerKit("ConfigKit")
 

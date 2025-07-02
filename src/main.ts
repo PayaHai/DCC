@@ -1,7 +1,7 @@
-import ConfigKit from "./ConfigKit.ts"
-import LoggerKit from "./LoggerKit.ts"
-import VariableKit from "./VariableKit.ts"
-import AttackKit from "./AttackKit.ts"
+import ConfigKit from "@/src/ConfigKit.ts"
+import LoggerKit from "@/src/LoggerKit.ts"
+import VariableKit from "@/src/VariableKit.ts"
+import AttackKit from "@/src/AttackKit.ts"
 
 const logger = new LoggerKit("Main")
 
