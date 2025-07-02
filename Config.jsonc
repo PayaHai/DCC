@@ -1,0 +1,27 @@
+{
+    "concurrent": 1024,  // 并发数
+    "variables": {  // 变量，使用$包裹使用
+        "username": {
+            "type": "fix",  // 类型： fix(固定变量)、random(随机变量)
+            "value": "admin"  // 固定值
+        },
+        "password": {
+            "type": "random",  // 类型： fix(固定变量)、random(随机变量)
+            "long": 8,  // 随机长度
+            "char": "abcdefghijklmnopqrstuvwxyz0123456789"  // 随机字符
+        }
+    },
+    "feature": {  // 攻击对象特征
+        "url": "https://****.******.com",  // 攻击对象 URL
+        "method": "POST",  // 请求方法，可选：POST、GET
+        "headers": {  // 请求头
+            "Content-Type": "application/json"
+        },
+        "body": {  // 请求体，类型： object、 string
+            "username": "$username$",
+            "password": "$password$"
+        },
+        "cookies": {  //  Cookie
+        }
+    }
+}

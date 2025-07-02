@@ -1,0 +1,9 @@
+{
+  "name": "DDC",
+  "description": "自动化 HTTP 压测工具",
+  "version": "1.0.0",
+  "tasks": {
+    "dev": "deno run --allow-all src/main.ts",
+    "build": "deno run --allow-all build.ts"
+  }
+}
